@@ -1,0 +1,74 @@
+/* CreateRecipe.css */
+
+form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px 25px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1.8px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+  font-family: inherit;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Style ReactQuill editor container */
+.ql-container {
+  height: 180px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1.8px solid #ddd;
+  font-family: inherit;
+}
+
+.ql-container.ql-snow {
+  font-size: 16px;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  form {
+    margin: 20px 15px;
+    padding: 20px 15px;
+  }
+}
